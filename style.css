@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+.navimg{
+    height: 440px;
+    width: 100%;
+    color:white;
+}
+
+.navbar{
+    height:72px;
+    /* background-color: pink; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlogo img{
+    height: 24px;
+    width: 160px;
+}
+
+.navbar input{
+    height: 42px;
+    width: 360px;
+    border-radius: 21px;
+    border-color: white;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.navlast{
+    display:flex;
+    
+}
+
+.last{
+    color:blue;
+}
+
+.icon{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+}
+
+/* .mainImg img{
+    height: 440px;
+    width: 100vw;
+} */
+
+/* .mainImg h1{
+    padding: top -90px;
+} */
+
+.bil {
+    background-color: rgb(28, 143, 231);
+    color:white;
+}
+
+.panel{
+    margin-left: 100px;
+}
+
+.intro{
+    margin-bottom: 20px;
+    display:flex ;
+    align-items: center;
+    gap: 10px;
+}
+.intro img{
+    padding-left: 10px;
+}
+.intro p{
+
+  padding-left: 400px;
+  align-items: center;
+}
+
+.intro button{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.bottombut button{
+
+    background-color: white;
+    color:green;
+    border-color: grey;
+}
+
+.bottombut1 button{
+
+    background-color: white;
+    color:orangered;
+    border-color: grey;
+}
